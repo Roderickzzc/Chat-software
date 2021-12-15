@@ -47,5 +47,9 @@ Double click the friend name label to open a chat.
 Close the client before shutting down the server
 
 ## Implementation
-
+### Classes
+#### User
+This class stores the information of users including id, username, password, online status
+#### LeaveMessage
+This class stores information when the receiver is not able to receive the message from sender, then the message will be stored in database
 
