@@ -35,9 +35,9 @@ Click the create an account button, then you could create an account with your o
 
 ## Chat
 Double click the friend name label to open a chat.\
-If both of clients open the chat, they can send messages to each other by clicking the send button.(Enter does not work here.)\
-If A is trying to send a message to B that is offline, the server will notify A that your target B is offline.\
-If both of clients are online, but B has not opened that chat window, B's friendname will turn into blue to notify her that she has a new message from A.
+* If both of clients open the chat, they can send messages to each other by clicking the send button.(Enter does not work here.)\
+* If A is trying to send a message to B that is offline, the server will notify A that your target B is offline.\
+* If both of clients are online, but B has not opened that chat window, B's friendname will turn into blue to notify her that she has a new message from A.
 
 ## Exit
 Close the client before shutting down the server
