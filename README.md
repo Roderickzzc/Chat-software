@@ -16,8 +16,9 @@ This program allows multiple users to create an account in the group and chat pr
   * username and pwd is the username and password for your mySQL useraccount, and you may need to change it to your own mySQL user.
   * mykey is used to encode the passwords of our users
 * launch serverConn.java in the server folder
-* Error may occur when connecting to the database. If that happens, you could try to reconfigure the mySQL authentication method to Legacy authentication method (retain MySQL 5.x compatibility)
 ![create database](/screenshot/2.gif)
+* Error may occur when connecting to the database. If that happens, you could try to reconfigure the mySQL authentication method to Legacy authentication method (retain MySQL 5.x compatibility)
+
 ### Client: 
 * Download the entire file and open the configConnection, and change HOST to your server's IP address.
 * launch loginInterface.java in the clientView folder
