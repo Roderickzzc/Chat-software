@@ -1,6 +1,6 @@
 # CS-GY 9053 I2 – Introduction to Java - Fall 2021
 
-# Final Project: Chat software
+# Final Project: Chat software-zz3523
 
 ## Description
 
