@@ -17,7 +17,7 @@ This program allows multiple users to create an account in the group and chat pr
   * mykey is used to encode the passwords of our users
 * launch serverConn.java in the server folder
 * Error may occur when connecting to the database. If that happens, you could try to reconfigure the mySQL authentication method to Legacy authentication method (retain MySQL 5.x compatibility)
-
+![create database](/screenshot/2.gif)
 ### Client: 
 * Download the entire file and open the configConnection, and change HOST to your server's IP address.
 * launch loginInterface.java in the clientView folder
@@ -28,17 +28,19 @@ You could login with some default username and password already stored in the da
 Username: Frank, Password frank;\
 Username: Lucy, Password lucy;\
 ...
-
+![create database](/screenshot/3.gif)
 ### Registration
 
 Click the create an account button, then you could create an account with your own username and password.
-
+![create database](/screenshot/7.gif)
 ### Chat
 Double click the friend name label to open a chat.
 * If both of clients open the chat, they can send messages to each other by clicking the send button.(Enter does not work here.)
+![create database](/screenshot/4.gif)
 * If A is trying to send a message to B that is offline, the server will notify A that your target B is offline.
+![create database](/screenshot/6.gif)
 * If both of clients are online, but B has not opened that chat window, B's friendname will turn into blue to notify her that she has a new message from A.
-
+![create database](/screenshot/5.gif)
 ### Exit
 Close the client before shutting down the server
 
