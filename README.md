@@ -49,7 +49,45 @@ Close the client before shutting down the server
 ## Implementation
 ### Classes
 #### User
-This class stores the information of users including id, username, password, online status
+This class formats the information of users including id, username, password, online status
 #### LeaveMessage
-This class stores information when the receiver is not able to receive the message from sender, then the message will be stored in database
+This class formats the information when the receiver is not able to receive the message from sender.
+### client
+#### userConn
+Methods to send messages to the server. And receive the messages from server return the result to user interface. Methods includes login, register and get friend list.
+### clientView
+#### chat
+Chat Interface. Create threadChatClient to receive message and shut down the thread when closing the window. Send message to server when send button is pressed.
+#### friendlist
+Friend List Interface. Based on userConn. Double Click to launch a chat with other. When closing the window, tell the server that the user is now offline.
+#### loginInterface
+Login Interface. Based on userConn.
+#### register
+Registration Interface. Based on userConn.
+### server
+#### serverConn
+Based on the message type sent by the user the server will operate the database using methods from serverDataManage and send back messages to users.
+#### serverDataManage
+Manage the user data.
+#### serverMessageDataManage
+Manage the unread message data.
+### utility
+#### configConnection
+Set the server IP address and port number
+#### connectionUtil
+Tools to establish the connection between server and clients
+#### dataBaseUtil
+Tools to connect to the database
+#### Message
+Formats the message sent between server and clients
+#### PropertiesUtil
+Referenced from Internet to get values from config.properties
+#### statusType
+The message types sent between server and clients to distinguish whick action to execute.
+#### threadChatClient
+If receive a chat message, then append it to JtextArea. If receive a target offline message, append the content in message from server to JtextArea.
+#### threadChatServer
+Thread lauched when user open a chat window (message type CHAT_CONN). Then depends on whether the target user is online(server has a socket with target username) or open the chat window(server has also a thread in the inverse direction) or target is offline(server does not have anything), the server will notify the target or send the message to notify the user that the target is offline.
+#### threadRefreshFriendlist
+Depending on the received message, the client side thread will refresh the friendlist when user is getting online, offline, registration, or leaving a message. 
 
