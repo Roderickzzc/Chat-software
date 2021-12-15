@@ -1,7 +1,7 @@
 # CS-GY 9053 I2 – Introduction to Java - Fall 2021
 
 # Final Project: Chat software-zz3523
-
+https://github.com/Roderickzzc/chat
 ## Description
 
 This program allows multiple users to create an account in the group and chat privately with each other.
