@@ -11,7 +11,7 @@ This program allows multiple users to create an account in the group and chat pr
 ### Server: 
 
 * Download the entire file and open the config.perperties.
-  * url is where the database located, to create the database you could use e.g. Navicat to import the database
+  * url is where the database located, to create the database you could use e.g. Navicat to import the database by excuting the .sql file.
   ![create database](/screenshot/1.gif)
   * username and pwd is the username and password for your mySQL useraccount, and you may need to change it to your own mySQL user.
   * mykey is used to encode the passwords of our users
