@@ -20,7 +20,7 @@ This program allows multiple users to create an account in the group and chat pr
 
 ### Client: 
 * Download the entire file and open the configConnection, and change HOST to your server's IP address.
-* launch loginInterface.java in the server folder
+* launch loginInterface.java in the clientView folder
 
 ## Login
 
