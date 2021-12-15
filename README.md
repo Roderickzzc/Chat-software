@@ -12,7 +12,7 @@ This program allows multiple users to create an account in the group and chat pr
 
 * Download the entire file and open the config.perperties.
   * url is where the database located, to create the database you could use e.g. Navicat to import the database by excuting the .sql file.
-  ![create database](/screenshot/1.gif)
+  ![create database](/screenshot/1.jpg)
   * username and pwd is the username and password for your mySQL useraccount, and you may need to change it to your own mySQL user.
   * mykey is used to encode the passwords of our users
 * launch serverConn.java in the server folder
@@ -22,6 +22,7 @@ This program allows multiple users to create an account in the group and chat pr
 ### Client: 
 * Download the entire file and open the configConnection, and change HOST to your server's IP address.
 * launch loginInterface.java in the clientView folder
+![create database](/screenshot/2.jpg)
 
 ### Login
 
